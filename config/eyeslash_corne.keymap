@@ -37,6 +37,31 @@
             bindings = <&soft_off>;
             key-positions = <1 15 29>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <23 24>;
+        };
+
+        less {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <3 4>;
+        };
+
+        great {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <8 9>;
+        };
+
+        openpar {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <31 32>;
+        };
+
+        closepar {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <37 38>;
+        };
     };
 
     keymap {
