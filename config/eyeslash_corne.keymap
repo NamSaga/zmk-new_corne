@@ -40,26 +40,31 @@
         };
 
         esc {
+            timeout-ms = <250>;
             bindings = <&kp ESCAPE>;
             key-positions = <23 24>;
         };
 
         less {
+            timeout-ms = <250>;
             bindings = <&kp LESS_THAN>;
             key-positions = <3 4>;
         };
 
         great {
+            timeout-ms = <250>;
             bindings = <&kp GREATER_THAN>;
             key-positions = <8 9>;
         };
 
         openpar {
+            timeout-ms = <250>;
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <31 32>;
         };
 
         closepar {
+            timeout-ms = <250>;
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <37 38>;
         };
