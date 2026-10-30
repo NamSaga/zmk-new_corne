@@ -43,6 +43,8 @@
             timeout-ms = <250>;
             bindings = <&kp ESCAPE>;
             key-positions = <23 24>;
+        };
+
     };
 
     keymap {
