@@ -199,3 +199,13 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
+- p: [23, 24]
+  k: $$mdi:keyboard-esc$$
+- p: [3, 4]
+  k: <
+- p: [8, 9]
+  k: '>'
+- p: [31, 32]
+  k: (
+- p: [37, 38]
+  k: )
