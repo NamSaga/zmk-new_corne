@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyeslash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
-  - Q
+  - A
   - W
   - E
   - R
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&capstap'
+  - '&td0'
   - A
   - S
   - D
@@ -29,20 +29,20 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
   - V
   - B
-  - MUTE
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
@@ -199,13 +199,3 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-- p: [23, 24]
-  k: $$mdi:keyboard-esc$$
-- p: [3, 4]
-  k: <
-- p: [8, 9]
-  k: '>'
-- p: [31, 32]
-  k: (
-- p: [37, 38]
-  k: )
