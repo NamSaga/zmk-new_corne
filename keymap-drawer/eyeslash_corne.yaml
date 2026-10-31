@@ -342,7 +342,7 @@ layers:
   - '4'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: MICE, h: EDT}
-  - {t: SYM, h: toggle}
+  - {t: MAIN, h: toggle}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
