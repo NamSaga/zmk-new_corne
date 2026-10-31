@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: CPST}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: MICE, h: EDT}
-  - INS
+  - '&td_num'
   SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
