@@ -38,6 +38,13 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
+        td_num: td_num {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Insert/DeadlockLayer";
+            #binding-cells = <0>;
+            bindings = <&kp INS>, <&tog 6>;
+        };
+
         tm: tm {
             compatible = "zmk,behavior-hold-tap";
             label = "toggle_momentary";
@@ -227,7 +234,7 @@
 &kp TAB   &kp Q  &kp W       &kp E       &kp R        &kp T                                &kp UP               &kp Y                  &kp U        &kp I       &kp O       &kp P     &kp ESC
 &kp BSPC  &kp A  &ht LGUI S  &ht LALT D  &ht LCTRL F  &kp G                      &kp LEFT  &kp HOME  &kp RIGHT  &kp H                  &ht RCTRL J  &ht RALT K  &ht RGUI L  &kp SEMI  &kp SQT
 &td0      &kp Z  &kp X       &kp C       &kp V        &kp B        &kp K_MUTE              &kp DOWN             &kp N                  &kp M        &kp COMMA   &kp DOT     &kp FSLH  &kp PRINTSCREEN
-                             &mo 5       &mo 1        &lt 2 SPACE                                               &ht RIGHT_SHIFT ENTER  &tm 3 4      &kp INS
+                             &mo 5       &mo 1        &lt 2 SPACE                                               &ht RIGHT_SHIFT ENTER  &tm 3 4      &td_num
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
