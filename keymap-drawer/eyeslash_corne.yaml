@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - PRINTSCREEN
+  - '&td_mkt'
   - FUNC
   - SYM
   - {t: '$$mdi:keyboard-space$$', h: CPST}
@@ -343,6 +343,55 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: MICE, h: EDT}
   - {t: MAIN, h: toggle}
+  MKT:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
+  - HOME
+  - $$mdi:arrow-right-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - '&td0'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - $$mdi:arrow-down-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: MAIN, h: toggle}
+  - FUNC
+  - SYM
+  - {t: '$$mdi:keyboard-space$$', h: CPST}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: MICE, h: EDT}
+  - '&td_num'
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
